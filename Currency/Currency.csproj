@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="resources\bitcoin.png" />
+    <None Remove="resources\collage.png" />
+    <None Remove="resources\convert.png" />
+    <None Remove="resources\diamond.png" />
+    <None Remove="resources\down.png" />
+    <None Remove="resources\notif.png" />
+    <None Remove="resources\profile.png" />
+    <None Remove="resources\prop.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\bitcoin.png" />
+    <Resource Include="resources\collage.png" />
+    <Resource Include="resources\convert.png" />
+    <Resource Include="resources\diamond.png" />
+    <Resource Include="resources\down.png" />
+    <Resource Include="resources\notif.png" />
+    <Resource Include="resources\profile.png" />
+    <Resource Include="resources\prop.png" />
+  </ItemGroup>
+
+</Project>
